@@ -1,0 +1,362 @@
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+  .logo {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+  .logo i {
+    display: block;
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  nav {
+    position: relative;
+  }
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 7rem;
+    min-width: 71%;
+    left: -100%;
+    height: 100vh;
+    background: #ffffff;
+    gap: 3rem;
+    padding: 4rem 10rem;
+    z-index: 100;
+    transition: all 0.3s ease-in;
+    justify-content: flex-start;
+  }
+  .nav-links li a {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .btns {
+    display: none;
+  }
+  .nav-btns {
+    display: block;
+  }
+
+  .nav-btns button {
+    display: block;
+    margin: 2rem 0;
+    width: 15rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+  .nav-btns button:nth-of-type(1) {
+    color: #96bb7c;
+    background: none;
+    transition: all 0.3s ease-in;
+    border-radius: 0.5rem;
+  }
+  .nav-btns button:nth-of-type(1):hover {
+    color: #070707;
+    background: none;
+    border: 1px solid #171817;
+  }
+  .nav-btns button:nth-of-type(2) {
+    color: #fff;
+    background: #96bb7c;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in;
+  }
+  .nav-btns button:nth-of-type(2):hover {
+    color: #fff;
+    background: #171817;
+    border-radius: 0.5rem;
+  }
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10rem 5rem 5rem 5rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .hero-info {
+    padding: 4rem 3rem;
+    position: static;
+  }
+  .left-content p:nth-of-type(1) {
+    font-size: 1.8rem;
+  }
+  .left-content p:nth-of-type(2) {
+    line-height: 3rem;
+  }
+  .hero-img {
+    height: 48rem;
+    width: 50rem;
+
+    position: relative;
+    left: -3.8rem;
+  }
+  .hero-img::before {
+    height: 49rem;
+    width: 46rem;
+    left: 7rem;
+    top: 4rem;
+  }
+  .hero-btns button {
+    font-size: 1.8rem;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .card-size {
+    height: auto;
+    width: auto;
+    padding: 3rem 3rem;
+    background-color: #fff;
+    box-shadow: 0 13px 19px 0 #00000012;
+  }
+  .stats {
+    padding: 5rem 14rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    margin-top: 0rem;
+    gap: 3rem;
+  }
+  .analytics h1 {
+    font-size: 3.8rem;
+  }
+  .analytics-info {
+    padding: 6rem;
+    flex-wrap: wrap;
+  }
+  .left-analytics p {
+    font-size: 1.8rem;
+  }
+  .left-analytics a {
+    font-size: 1.8rem;
+  }
+  .analytics-img {
+    margin-top: 5rem;
+    width: 48rem;
+  }
+  .quality-sec p {
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
+  .quality-sec {
+    padding: 5rem 5rem;
+    text-align: center;
+  }
+  .p-card {
+    padding: 3rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  .card-content h5 {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  .card-para {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 57rem;
+  }
+  .p-img {
+    width: auto;
+    height: auto;
+  }
+  .tesimonial-sec {
+    padding: 5rem;
+  }
+  .testimonial p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .c-cards {
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  .team-sec p:nth-of-type(1) {
+    font-size: 1.8rem;
+  }
+  .team-sec p:nth-of-type(2) {
+    font-size: 1.8rem;
+  }
+  .t-card {
+    padding: 5rem;
+    flex-wrap: wrap;
+  }
+  .t-img {
+    width: auto;
+    height: 40rem;
+    border-radius: 1rem;
+  }
+  .client-card p {
+    font-size: 1.6rem;
+  }
+  .client-info h6 {
+    font-size: 1.6rem;
+  }
+  .teacher-info {
+    align-items: center;
+  }
+  .teacher-info h2 {
+    font-size: 2rem;
+  }
+  .teacher-info p:nth-of-type(1) {
+    font-size: 1.5rem;
+    padding: 0.75rem 0.75rem;
+    width: 26rem;
+  }
+  .teacher-info p:nth-of-type(2) {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+  .social-icon i {
+    font-size: 3rem;
+  }
+  .news-letter p:nth-of-type(1) {
+    font-size: 1.8rem;
+  }
+  .news-letter p:nth-of-type(2) {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .news-letter {
+    padding: 2rem;
+  }
+  .links {
+    justify-content: left;
+    gap: 4rem;
+    display: grid;
+    justify-content: center;
+    padding: 5rem;
+    gap: 7rem;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  }
+  .made-by-line {
+    padding: 3rem 5rem;
+  }
+  .f-social-icon i {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+  .stats {
+    padding: 5rem 8rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .stats {
+    padding: 5rem 8rem;
+  }
+  .hero-img::before {
+    left: 3rem;
+  }
+
+  .hero-img {
+    height: 45rem;
+    width: 47rem;
+    position: relative;
+    left: -5.8rem;
+  }
+  .hero-img::before {
+    height: 46rem;
+    width: 46rem;
+    left: 7rem;
+    top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 38%;
+  }
+  .stats {
+    padding: 5rem 8rem;
+  }
+  .hero-img::before {
+    left: 4rem;
+    top: 2rem;
+  }
+  .links {
+    display: grid;
+    justify-content: center;
+    padding: 4rem;
+    gap: 4rem;
+    gap: 7rem;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  }
+  .quality-sec {
+    padding: 5rem 3rem;
+  }
+  .hero-img {
+    left: -2.8rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 869px) {
+  html {
+    font-size: 38%;
+  }
+  .links {
+    justify-content: start;
+  }
+  .stats {
+    padding: 10rem 9rem;
+  }
+  .news-letter {
+    padding: 3rem;
+  }
+  .t-card {
+    padding: 3rem;
+  }
+}
+@media only screen and (min-width: 870px) and (max-width: 930px) {
+  html {
+    font-size: 46%;
+  }
+}
+@media only screen and (min-width: 931px) and (max-width: 1000px) {
+  html {
+    font-size: 46%;
+  }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  html {
+    font-size: 52%;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1450px) {
+  html {
+    font-size: 71%;
+  }
+}
+@media only screen and (min-width: 1450px) and (max-width: 1500px) {
+  html {
+    font-size: 80%;
+  }
+}

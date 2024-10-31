@@ -1,0 +1,98 @@
+.team-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  padding: 0 5rem;
+}
+.team-sec p:nth-of-type(1) {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #96bb7c;
+  text-align: center;
+}
+.team-sec h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.team-sec p:nth-of-type(2) {
+  font-size: 1.4rem;
+  color: #737373;
+  text-align: center;
+  line-height: 3rem;
+}
+.t-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem;
+
+}
+.t-card-1,
+.t-card-2,
+.t-card-3,
+.t-card-4 {
+  background: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  transition: all 0.3s ease-in;
+
+}
+.t-card-1:hover,
+.t-card-2:hover,
+.t-card-3:hover,
+.t-card-4:hover {
+  transform: scale(1.1);
+}
+
+.t-img {
+  width: 28rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+.t-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.teacher-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.teacher-info h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #252b42;
+}
+.teacher-info p:nth-of-type(1) {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #efd110;
+  background: #000;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5rem;
+}
+.teacher-info p:nth-of-type(2) {
+  font-size: 1.2rem;
+  color: #737373;
+  width: auto;
+  line-height: 2rem;
+}
+.social-icon {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 0 0 2rem 0;
+  justify-content: center;
+}
+.social-icon i {
+  color: #96bb7c;
+  cursor: pointer;
+  font-size: 2rem;
+}

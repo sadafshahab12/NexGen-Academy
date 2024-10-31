@@ -1,0 +1,80 @@
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  gap: 7rem;
+  flex-wrap: wrap;
+}
+
+.info1,
+.info2,
+.info3,
+.info4,
+.info5 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.info1 h1,
+.info2 h1,
+.info3 h1,
+.info4 h1,
+.info5 h1 {
+  font-size: 1.6rem;
+  color: #2d4059;
+  font-weight: bold;
+}
+
+.info1 li,
+.info2 li,
+.info3 li,
+.info4 li,
+.info5 li {
+  list-style: none;
+}
+.info1 li a,
+.info2 li a,
+.info3 li a,
+.info4 li a,
+.info5 li a {
+  font-size: 1.4rem;
+  color: #737373;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.info5 li {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.info5 li i {
+  font-size: 1.5rem;
+  color: #96bb7c;
+}
+.made-by-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 10rem;
+    align-items: center;
+    background: #000;
+}
+.made-by-line p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.f-social-icon{
+    display: flex;
+   gap: 3rem;
+    align-items: center;
+}
+.f-social-icon i{
+    color: #96bb7c;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.f-social-icon i:hover{
+  color: #fff;
+}
